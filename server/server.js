@@ -50,6 +50,8 @@ io.on('connection', socket => {
  * ***************************************
  */
 if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join((__dirname, '../client'))));
+
   app.use('/build', express.static(path.resolve(__dirname, '../build')));
 
   // Handle redirects

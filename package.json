@@ -27,7 +27,6 @@
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "moment": "^2.27.0",
-    "node": "^14.5.0",
     "passport": "^0.4.1",
     "passport-spotify": "^1.1.0",
     "pg": "^8.3.0",
